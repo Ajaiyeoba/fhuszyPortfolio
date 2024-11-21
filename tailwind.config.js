@@ -8,7 +8,11 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily : ['Inter', 'sans-serif']
+      fontFamily : {
+        "rubik" : ['Rubik', 'san-serif']
+      }
+
+      //  ['Inter', 'sans-serif']
     },
   },
   plugins: [tailwindScrollbar],
