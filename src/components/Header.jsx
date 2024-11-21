@@ -9,7 +9,7 @@ function Header() {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid-cols-[1fr,3fr,1fr]">
         <h1 className="text-4xl text-sky-400">
           <a href="" className="logo">
-            Mah Fuzzy
+            Liadi Mahfus
           </a>
         </h1>
 
