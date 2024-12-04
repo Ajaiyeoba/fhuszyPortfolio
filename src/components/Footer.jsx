@@ -1,51 +1,12 @@
-import { ArrowDownIcon } from "lucide-react";
+import {
+  ArrowDownIcon,
+  FacebookIcon,
+  GithubIcon,
+  XIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "lucide-react";
 import { ButtonPrimary } from "./Button";
-
-const sitemap = [
-  {
-    label: "Home",
-    href: "#home",
-  },
-  {
-    label: "About",
-    href: "#about",
-  },
-  {
-    label: "Work",
-    href: "#work",
-  },
-  {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
-    label: "Contact",
-    href: "#contact",
-  },
-];
-
-const socials = [
-  {
-    label: "Github",
-    href: "",
-  },
-  {
-    label: "Instagram",
-    href: "",
-  },
-  {
-    label: "Facebook",
-    href: "",
-  },
-  {
-    label: "X",
-    href: "",
-  },
-  {
-    label: "LinkedIn",
-    href: "",
-  },
-];
 
 function Footer() {
   return (
@@ -66,36 +27,108 @@ function Footer() {
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
-            <div className="">
-              <p className="mb-2 reveal-up"> Sitemap</p>
+            {/* Sitemap */}
+            <div>
+              <p className="mb-2 reveal-up text-xl text-blue-500"> Sitemap</p>
               <ul>
-                {sitemap.map(({ label, href }, key) => {
-                  <li key={key}>
-                    <a
-                      href={href}
-                      className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
-                    >
-                      {label}
-                    </a>
-                  </li>;
-                })}
+                <li>
+                  {" "}
+                  <a
+                    href="#hero"
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    Home
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href="#about"
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    About
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href="#projects"
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    Project
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href=""
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    Reviews
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href="#review"
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    Contact
+                  </a>{" "}
+                </li>
               </ul>
             </div>
 
-            <div className="mb-2 reveal-up">
-              <p>Socials</p>
+            {/*  */}
+
+            <div>
+              <p className="mb-2 reveal-up text-xl text-blue-500"> Socials</p>
               <ul>
-                {socials.map(({ label, href }, key) => {
-                  <li key={key}>
-                    <a
-                      href={href}
-                      target="_blank"
-                      className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
-                    >
-                      {label}
-                    </a>
-                  </li>;
-                })}
+                <li>
+                  {" "}
+                  <a
+                    href="dfc.vocc"
+                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    <FacebookIcon />
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href=""
+                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    <InstagramIcon />
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href=""
+                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    <GithubIcon />
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href=""
+                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    <LinkedinIcon />
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href=""
+                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                  >
+                    <XIcon />
+                  </a>{" "}
+                </li>
               </ul>
             </div>
           </div>
