@@ -1,34 +1,33 @@
 import ProjectCard from "./ProjectCard";
-// import estore from '../assets/estore.png'
-// import wcu from '../assets/wcu.png'
+
 const works = [
   {
     img: {},
     title: "1759 Estore",
     tags: ["API", "Development", "Ecommerce"],
     projectLink: "https://www.google.com",
-    classes: "", 
+    classes: "",
   },
   {
     img: {},
     title: "WCU Campus",
     tags: ["API", "Development", "Academics"],
     projectLink: "https://www.google.com",
-    classes: "", 
+    classes: "",
   },
   {
     img: "",
     title: "Farm Management",
     tags: ["API", "Development"],
     projectLink: "https://www.google.com",
-    classes: "", 
+    classes: "",
   },
   {
     img: "",
     title: "Ticketbritte",
     tags: ["API", "Development", "Sales", "Technology", "Events"],
     projectLink: "https://www.google.com",
-    classes: "", 
+    classes: "",
   },
 ];
 
@@ -38,8 +37,8 @@ function Work() {
       <div className="container">
         <h2 className="headline-2 mb-8">My Portfolio Highlights</h2>
 
-        <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ img, title, tags, projectLink,  }, key) => (
+        <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))]">
+          {works.map(({ img, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}
               img={img}

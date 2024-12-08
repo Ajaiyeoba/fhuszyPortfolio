@@ -12,7 +12,6 @@ export default {
         "rubik" : ['Rubik', 'san-serif']
       }
 
-      //  ['Inter', 'sans-serif']
     },
   },
   plugins: [tailwindScrollbar],

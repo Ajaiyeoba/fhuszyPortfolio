@@ -13,7 +13,7 @@ function Navbar({ navOpen }) {
       activeBox.current.style.left = linkRect.left + "px";
       activeBox.current.style.width = linkRect.width + "px";
       activeBox.current.style.height = linkRect.height + "px";
-    }
+    } 
   };
 
   useEffect(() => {

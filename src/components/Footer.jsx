@@ -35,7 +35,7 @@ function Footer() {
                   {" "}
                   <a
                     href="#hero"
-                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="block text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     Home
                   </a>{" "}
@@ -44,7 +44,7 @@ function Footer() {
                   {" "}
                   <a
                     href="#about"
-                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="block text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     About
                   </a>{" "}
@@ -53,7 +53,7 @@ function Footer() {
                   {" "}
                   <a
                     href="#projects"
-                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="block text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     Project
                   </a>{" "}
@@ -62,7 +62,7 @@ function Footer() {
                   {" "}
                   <a
                     href=""
-                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="block text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     Reviews
                   </a>{" "}
@@ -71,7 +71,7 @@ function Footer() {
                   {" "}
                   <a
                     href="#review"
-                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="block text-sm text-zinc-00 py-1 transition-colors `"
                   >
                     Contact
                   </a>{" "}
@@ -88,7 +88,7 @@ function Footer() {
                   {" "}
                   <a
                     href="dfc.vocc"
-                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="flex text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     <FacebookIcon />
                   </a>{" "}
@@ -97,7 +97,7 @@ function Footer() {
                   {" "}
                   <a
                     href=""
-                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="flex text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     <InstagramIcon />
                   </a>{" "}
@@ -106,16 +106,16 @@ function Footer() {
                   {" "}
                   <a
                     href=""
-                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="flex text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     <GithubIcon />
                   </a>{" "}
                 </li>
-                <li>
+                <li> 
                   {" "}
                   <a
                     href=""
-                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="flex text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     <LinkedinIcon />
                   </a>{" "}
@@ -124,7 +124,7 @@ function Footer() {
                   {" "}
                   <a
                     href=""
-                    className="flex text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200"
+                    className="flex text-sm text-zinc-800 py-1 transition-colors `"
                   >
                     <XIcon />
                   </a>{" "}

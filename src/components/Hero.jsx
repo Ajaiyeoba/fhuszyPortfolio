@@ -1,6 +1,8 @@
 import { ArrowDownIcon, CarIcon } from "lucide-react";
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import heroImage from '../assets/fhuszy.jpg'
+import heroImage from '../assets/fhuszy.jpg';
+
+
 function Hero() {
   return (
     <section id="home" className=" pt-28 lg:pt-36">

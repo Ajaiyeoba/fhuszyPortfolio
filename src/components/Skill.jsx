@@ -1,11 +1,15 @@
 import SkillCard from "./SkillCard";
+import reactLogo from '../assets/react-2.svg';
+import wpLogo from '../assets/wordpress-icon.svg';
+import jsLogo from "../assets/logo-javascript.svg"
+import twcLogo from "../assets/tailwind-css-2.svg";
 
 const skillItem = [
-  { label: "Html", desc: "Web Design" },
-  { label: "Css", desc: "Styling" },
-  { label: "Javascript", desc: "FrInteractionamework" },
-  { label: "Wordpress", desc: "CMS" },
-  { label: "Capcut", desc: "Video" },
+  { label: "Html", desc: "Web Design", imgSrc: reactLogo,  },
+  { label: "Css", desc: "Styling", imgSrc: twcLogo, },
+  { label: "Javascript", desc: "FrInteractionamework", imgSrc: jsLogo },
+  { label: "Wordpress", desc: "CMS",   imgSrc: wpLogo,},
+  { label: "Capcut", desc: "Video", imgSrc: twcLogo, },
   { label: "Canva", desc: "Fliers" },
   { label: "Corel Draw", desc: "Graphics Design" },
 ];
@@ -20,11 +24,12 @@ function Skill() {
         </p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-          {skillItem.map(({ label, desc }, key) => (
+          {skillItem.map(({ label, desc , imgSrc}, key) => (
             <SkillCard
               key={key}
               label={label}
               desc={desc}
+              imgSrc={imgSrc}
               classes="reveal-up"
             />
           ))}
